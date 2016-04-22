@@ -41,8 +41,8 @@ void main()
       printf("%s, O. Nice! You can give blood to all: O, A, B, AB\n", Name);
       printf("  But Sad! You can receive blood only from: O\n");
     }
-    printf("\nContinue (YES for Yes)? ");
+    printf("\nContinue (Y for Yes)? ");
     scanf("%s", answer);
-  } while (strcmp(answer, "YES") == 0);
+  } while (strcmp(answer, "Y") == 0);
   printf("Goodbye\n");
 }
